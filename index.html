@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+	<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link href="../../favicon.ico" rel="icon">
 
-    <title>Carousel Template for Bootstrap</title>
-	
+    <title>Bootstrap Cover Page</title>
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -18,13 +19,13 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+	<link rel="stylesheet" href="cover.css">
   </head>
-<!-- NAVBAR
-================================================== -->
+
   <body>
+  
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -42,7 +43,7 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="index2.html">Experience</a></li>
               </ul>
             </div>
           </div>
@@ -51,108 +52,30 @@
       </div>
     </div>
 
+    <div class="site-wrapper">
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Welcome!</h1>
-              <h3>This page includes current and former employers as well as projects I'm currently working on</h3>
-            </div>
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Welcome! This is the Resume Website of William L. Wood</h1>
+            <p class="lead">I'm a Computer Science student at the University of Florida with a graduation date set in December 2016. I'm proficient with C++ and have experience with HTML, CSS, Javascript, Java, C#. My future focus/interest is in security and app development.</p>
+            <p class="lead">
+              <img class="img-square" src="me.jpg" alt="Generic placeholder image" height="240" width="240">
+            </p>
           </div>
+
+          <!-- FOOTER -->
+		  <footer>
+			<p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+		  </footer>
+
         </div>
-      </div>
-    </div><!-- /.carousel -->
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="cae.jpg
-		  " alt="Generic placeholder image" height="140" width="140">
-          <h2>Employer: CAE</h2>
-		  <h3>Summer 2015</h3>
-          <p>Tampa CAE specializes in flight simulators for Defence and Security. My role was to further develop an Off-line Library Generator which modifies and generates data used by FalconView</p>
-          <p><a class="btn btn-default" href="http://www.cae.com/about-cae/corporate-information/who-we-are/" role="button">Learn about the Employer</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="uf.jpg" alt="Generic placeholder image" height="140" width="140">
-          <h2>Employer: AT Labs</h2>
-		  <h3>August 2014 - Present</h3>
-          <p>On campus user support for printing, lab upkeep, and application use</p>
-          <p><a class="btn btn-default" href="https://labs.at.ufl.edu/about-at-labs/" role="button">Learn about the Employer</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-square" src="hardware.jpg" alt="Generic placeholder image" height="140" width="140">
-          <h2>Employer: The Computer Tutor</h2>
-		  <h3>Summer 2014</h3>
-          <p>Assessed and repaired clients laptops and desktops. Replaced RAM, reinstalled windows, disassembled old computers for parts, etc</p>
-          <p><a class="btn btn-default" href="http://computertutorflorida.com/" role="button">Learn about the Employer</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Android App Dev</h2>
-          <p class="lead">I'm currently developing an app called Evangelism Buddies. Users input there free time during the week as well as clubs they are interested in. The app will take that data and user preferences to find other users who are also free to go sharing at the same time or who are interested in the same club.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="android.jpg" alt="Generic placeholder image">
-        </div>
       </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">IOS App Dev</h2>
-          <p class="lead">I'm currently developing an app called Evangelism Buddies. Users input there free time during the week as well as clubs they are interested in. The app will take that data and user preferences to find other users who are also free to go sharing at the same time or who are interested in the same club.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="ios.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">MEAN.JS Dev/Scrum</h2>
-          <p class="lead">Rapidly developing web applications in MEAN.JS which is a full-stack JavaScript solution. All development is occurring in teams based on the Scrum framework to maximize collaboration and minimize complexity.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="meanjs.jpg" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>2015 Based on Bootstrap Template</p>
-      </footer>
-
-    </div><!-- /.container -->
-
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -163,4 +86,5 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   
 
-</body></html>
+</body>
+</html>
